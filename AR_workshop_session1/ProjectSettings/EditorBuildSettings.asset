@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/level_ar.unity
-    guid: af7480e3ef59d6743a1aaf3371f61214
+    path: Assets/Scenes/AR_shootingGame.unity
+    guid: 9407ec65430b929429934e905cc66a4e
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
