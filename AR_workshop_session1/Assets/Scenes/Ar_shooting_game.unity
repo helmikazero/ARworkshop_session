@@ -479,6 +479,7 @@ MonoBehaviour:
     type: 3}
   kecepatanPeluru: 10
   arCameraPos: {fileID: 22732924}
+  arCamera: {fileID: 22732920}
 --- !u!4 &1268382821
 Transform:
   m_ObjectHideFlags: 0
