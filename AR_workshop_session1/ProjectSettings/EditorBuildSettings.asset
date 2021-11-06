@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ar_coba1.unity
-    guid: 5115f3af74e331b4b8216d8d82280933
+    path: Assets/Scenes/Ar_shooting_game.unity
+    guid: a99e074fe8f1e90419e0a21ec25cf479
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

@@ -32,7 +32,7 @@ public class ScriptMenembak : MonoBehaviour
                 Vector3 touchPos = arCamera.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, arCameraPos.position.z+0.1f));
 
                 Vector3 dir = touchPos - arCameraPos.transform.position;
-
+                    
                 dir.Normalize();
 
                 GameObject peluruBaru = Instantiate(peluruPrefab, arCameraPos.position, arCameraPos.rotation);
