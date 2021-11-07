@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1909993005430136244}
   - component: {fileID: 1909993005430136255}
   - component: {fileID: 1909993005430136240}
+  - component: {fileID: 7143401257903458863}
   m_Layer: 0
   m_Name: peluru
   m_TagString: Untagged
@@ -220,3 +221,16 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &7143401257903458863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909993005430136245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c68165c37ffca4cab0c9621b43cbd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 3
