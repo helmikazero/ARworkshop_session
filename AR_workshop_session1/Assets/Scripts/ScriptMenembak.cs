@@ -28,6 +28,8 @@ public class ScriptMenembak : MonoBehaviour
 
             if(touch.phase == TouchPhase.Began)
             {
+
+                Debug.Log("MENCET BERHASIL");
                 Vector3 touchPos = arCamera.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, arCamera.transform.position.z + 0.1f));
 
                 Vector3 dir = touchPos - arCameraPos.position;

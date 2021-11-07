@@ -14,9 +14,8 @@ GameObject:
   - component: {fileID: 1909993005430136244}
   - component: {fileID: 1909993005430136255}
   - component: {fileID: 1909993005430136240}
-  - component: {fileID: 7143401257903458863}
-  m_Layer: 7
-  m_Name: peluru
+  m_Layer: 8
+  m_Name: peluru2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b483705227a5b847aa2bea428d5d63e, type: 2}
+  - {fileID: 2100000, guid: 701e5baf8ba4dee43b3f9f2729bb5df4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -134,7 +133,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b483705227a5b847aa2bea428d5d63e, type: 2}
+  - {fileID: 2100000, guid: 701e5baf8ba4dee43b3f9f2729bb5df4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -221,17 +220,3 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &7143401257903458863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909993005430136245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c68165c37ffca4cab0c9621b43cbd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeTime: 3
-  scoringSystem: {fileID: 0}

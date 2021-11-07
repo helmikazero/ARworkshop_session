@@ -21,7 +21,7 @@ public class TargetController : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, player.position, kecepatan);
+        transform.position = Vector3.MoveTowards(transform.position, player.position, kecepatan*Time.deltaTime);
     }
 
     private void OnCollisionEnter(Collision collision)
